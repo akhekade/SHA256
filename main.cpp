@@ -13,12 +13,9 @@ using namespace std;
 
 int main()
 {
-    string str;
-    cin>>str;
-    cout<<sha256(str);
-    //cout<<"Hello World"<<endl;
-    //cout<<"Programming from my macbook";
-
+    string str;   //Definite String
+    cin>>str;     //Accept String Input
+    cout<<sha256(str);  //SHA256 for the string
     return 0;
 }
 
